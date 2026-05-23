@@ -1,3 +1,21 @@
 venv/
 __pycache__/
 .pytest_cache/
+
+# Jenkins workspace / build artifacts
+.jenkins/
+
+# Flask logs
+app.log
+
+# macOS files
+.DS_Store
+
+# pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
