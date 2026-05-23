@@ -1,4 +1,4 @@
-# Flask CI/CD Demo Project
+# Jenkins CI/CD Automation Demo Project
 
 ## Project Overview
 
