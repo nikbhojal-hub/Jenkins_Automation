@@ -28,5 +28,14 @@ pipeline {
             }
         }
 
+        stage('Deploy Application') {
+            steps {
+                sh '''
+                chmod +x scripts/deploy.sh
+                ./scripts/deploy.sh
+                '''
+            }
+        }
+
     }
 }
